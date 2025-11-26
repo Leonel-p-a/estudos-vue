@@ -20,7 +20,7 @@ const commentsList = ref([]);
     </div>
 
     <!-- v-show remove ou esconde o HTML -->
-    <div >
+    <div>
       <h4>Comentários:</h4>
       <!-- v-model faz a ligação entre o inout e a variável de texto -->
       <input v-model="comment" type="text">
